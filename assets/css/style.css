@@ -1,0 +1,104 @@
+
+body {
+	padding-top: 25px;
+  	background-color: #f2f2f2;
+}
+
+img.img-thumbnail {
+	width: 50px;
+	height: 50px;
+}
+
+.img-ctn {
+  display: inline;
+  margin-right: 3%;
+  max-width: 120px;
+  background: #cecece;
+  font-size: 0;
+}
+.img-ctn > img {
+  max-width: 120px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+form {
+	width: 500px;
+	height: 250px;
+	text-align: left;
+}
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+    
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+	background-color: #fff;
+	margin-top: 51px;
+	margin-bottom: 0 auto;
+	height:auto;
+}
+
+.row.align-items-start {
+	background-color: #fff;
+	margin-top: 51px;
+	margin-bottom: 0 auto;
+	height: 600px;
+}
+
+.row.full-width {
+	height: 50px;
+}
+
+.col-md-12 {
+	padding: 20px
+}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+	padding-top: 20px;
+	background-color: #f1f1f1;
+	height: 100%;
+}
+    
+/* Set black background color, white text and some padding */
+footer {
+	background-color: #555;
+	color: white;
+	padding: 15px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+    
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media only screen and (max-width: 900px) {
+	.sidenav {
+		height: auto;
+		padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+    /* STYLES HERE for BROWSER WINDOWS with a max-width of 480px. 
+       This will work on desktops when the window is narrowed.  */
+}
+/*
+footer {
+	background-color: #555;
+	color: white;
+	padding: 15px;
+	width: 100%;
+	bottom: 0;
+}
+	}*/
